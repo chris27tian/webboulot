@@ -1,0 +1,55 @@
+body{
+    font-family: 'source code pro',Calibri,serif;
+
+/*remise à zero de la marge*/
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px; 
+    overflow: hidden;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding:20px 30px ;
+    color: #FFFF;
+}
+
+.menu-fm :hover{
+        border-top : 5px solid #e44d26;
+       background :rgba(228,77,38,0.15) ;
+}
+
+.menu-stages:hover{
+    border-top : 5px solid #0070bb;
+    background :rgba(000,122,192,0.15) ;
+}
+.menu-certif:hover{
+    border-top : 5px solid #f1dc4f;
+    background :rgba(241,211,79,0.15) ;
+}
+
+.menu-contact:hover{
+    border-top : 5px solid #bbb;
+    background :rgba(220,220,220,0.15) ;
+}
+
+nav li:hover a {
+    padding: 15px 30px 20px 30px;
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
