@@ -1,23 +1,38 @@
-body{
+/*body{
     font-family: source code pro,Calibri,serif;
 
-/*remise à zero de la marge*/
+/*remise à zero de la marge
     margin: 0px;
     padding: 0px;
 }
-/*selection de ul specific par > */
+/*selection de ul specific par > 
 nav > ul{
     margin: 0px;
     padding: 0px;
 }
 
-nav > ul> li{
-    float: left;
+nav > ul ::after{
+content: "";
+display: block;
+clear: both;
 }
 
-.submenu{
-        display:none;
+nav > ul> li{
+    float: left;
+    position: relative;
 }
+
+nav > ul>li> a{
+    padding: 20px 30px;
+    color: #FFF;
+}
+/*
+nav a{
+        display: inline-block;
+        text-decoration: none;
+ 
+}
+
 nav{
     width: 100%;
     background-color: #424558;
@@ -31,7 +46,9 @@ nav li{
     list-style-type: none;
     float: left;
 }
-
+.submenu{
+    display:none;
+}
 nav a{
     display: inline-block;
     text-decoration: none;
@@ -65,4 +82,42 @@ nav li:hover a {
 .table{
     display: table;
     margin: 0 auto;
+}*/
+
+/*------------------------------------------------------*/
+
+body{
+    font-family:calibri,serif;
+
+/*remise à zero de la marge*/
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+/*selection de ul specific par > */
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav >ul::after{
+    content:"";
+    display: none;
+    clear: both;
+}
+nav >ul > li{
+    float: left;
+    position: relative;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+.submenu{
+    display: none;
 }
