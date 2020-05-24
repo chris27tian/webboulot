@@ -1,9 +1,22 @@
 body{
-    font-family: 'source code pro',Calibri,serif;
+    font-family: source code pro,Calibri,serif;
 
 /*remise à zero de la marge*/
     margin: 0px;
     padding: 0px;
+}
+/*selection de ul specific par > */
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav > ul> li{
+    float: left;
+}
+
+.submenu{
+        display:none;
 }
 nav{
     width: 100%;
