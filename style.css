@@ -1,26 +1,26 @@
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Verdana, serif;
 /*remise à zero de la marge*/
     margin: 0px;
     padding: 0px;
 }
 
-nav{
-    width: 100%;
-    background-color: #424558;
-}
-/*selection de ul specific par > */
 nav > ul{
     margin: 0px;
     padding: 0px;
 }
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+
 
 nav > ul::after{
     content:"";
     display: block;
     clear: both;
 }
-nav  >ul > li{
+nav  > ul > li{
     float: left;
     position: relative;
 }
@@ -101,3 +101,12 @@ background-color:rgba(241, 211, 79, 0.15);
     font-weight: bold;
 }
 
+.menu-fm .submenu li:hover {
+    background-color: rgb(000, 160, 240);
+}
+.menu-stages .submenu li:hover{
+    background-color: rgb(230, 100, 40);
+}
+.menu-certif .submenu li:hover{
+    background-color: rgb(200, 165, 75);
+}
